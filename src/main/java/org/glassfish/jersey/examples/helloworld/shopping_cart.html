@@ -79,12 +79,16 @@
         <th>总计</th>
         <th>节省</th>
     </tr>
-    <% _.forEach(result.account, function(item) { %>
     <tr>
-        <td><%- item.all %></td>
-        <td><%- item.save %></td>
+        <td><%- result.account.all %></td>
+        <td><%- result.account.save %></td>
     </tr>
-    <% }); %>
+    <!--<% _.forEach(result.account, function(item) { %>-->
+    <!--<tr>-->
+        <!--<td><%- item.all %></td>-->
+        <!--<td><%- item.save %></td>-->
+    <!--</tr>-->
+    <!--<% }); %>-->
     </table>
 </script>
 </body>

@@ -1,24 +1,30 @@
 $(document).ready(function(){
+    $.get("http://localhost:3000/result",function(){
+       }).done(function(result){
+          print(result);
+       })
 
-      $.get("http://localhost:3000/allItems",function(){
-           }).done(function(allItems){
-              $.get("http://localhost:3000/promotions",function(){
-              }).done(function(loadPromotions){
-                  $.get("http://localhost:3000/inputs",function(){
-                  }).done(function(Inputs){
-                       var inputs=Inputs;
-                       var all_items=allItems;
-                       var promotions=loadPromotions;
-                       var items_buy=get_items_buy(inputs,all_items);
-                       var items_buy_count=get_items_buy_count(items_buy);
-                       var items_free=get_items_free(items_buy_count,promotions);
-                       var items_buy_count_total=get_items_buy_count_total(items_buy_count,items_free);
-                       var all_total=get_all_total(items_buy_count_total,items_free);
-                       var result=get_result(items_buy_count_total,items_free,all_total);
-                       print(result);
-                  });
-              })
-           });
+
+
+//      $.get("http://localhost:3000/allItems",function(){
+//           }).done(function(allItems){
+//              $.get("http://localhost:3000/promotions",function(){
+//              }).done(function(loadPromotions){
+//                  $.get("http://localhost:3000/inputs",function(){
+//                  }).done(function(Inputs){
+//                       var inputs=Inputs;
+//                       var all_items=allItems;
+//                       var promotions=loadPromotions;
+//                       var items_buy=get_items_buy(inputs,all_items);
+//                       var items_buy_count=get_items_buy_count(items_buy);
+//                       var items_free=get_items_free(items_buy_count,promotions);
+//                       var items_buy_count_total=get_items_buy_count_total(items_buy_count,items_free);
+//                       var all_total=get_all_total(items_buy_count_total,items_free);
+//                       var result=get_result(items_buy_count_total,items_free,all_total);
+//                       print(result);
+//                  });
+//              })
+//           });
 
 });
 
@@ -90,8 +96,8 @@ function get_items_free(items_buy_count,promotions){
     //items_buy_count=get_items_buy_count();
     var items_free=[];
     for(var i=0;i<items_buy_count.length;i++){
-        for(var j=0;j<promotions[0].barcodes.length;j++){
-            if(items_buy_count[i].barcode==promotions[0].barcodes[j]){
+        for(var j=0;j<promotions.length;j++){
+            if(items_buy_count[i].barcode==promotions[j]){
                 if(items_buy_count[i].count>=3){
                     items_free.push({name:items_buy_count[i].name,
                                    count:(items_buy_count[i].count-items_buy_count[i].count%3)/3,
