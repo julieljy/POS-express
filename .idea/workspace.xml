@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee5baa3-5296-48f7-8ea5-a681753d7359" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/index.js" afterPath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/js/shopping.js" afterPath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/js/shopping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/shopping_cart.html" afterPath="$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/shopping_cart.html" />
     </list>
     <ignored path="fixed-assets-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="shopping.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/js/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12720849">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.63829786">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -50,8 +47,8 @@
       <file leaf-file-name="shopping_cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/shopping_cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.296296">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -71,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -508,7 +505,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -901,14 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -919,16 +908,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/shopping_cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.296296">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/glassfish/jersey/examples/helloworld/js/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12720849">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.63829786">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ app.get("/result",function(req,res){
     http.get({
         hostname:"localhost",
         port:8080,
-        path:"/admin/result"
+        path:"/admin/receipt"
     },function(response){
         response.on("data",function(my_data){
             body += my_data;
